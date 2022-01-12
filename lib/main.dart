@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: _running
                 ? const Icon(Icons.pause)
                 : const Icon(Icons.play_arrow),
-            onPressed: () => setState (() => _running = !_running),
+            onPressed: /*_toggleRunning,*/ () => setState (() => _running = !_running),
           ),
         ],
       ),
